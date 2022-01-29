@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Dongle&family=Roboto:wght@100&family=Source+Serif+4:wght@300&display=swap');
+
+*{
+    font-family: 'Dongle', sans-serif;
+font-family: 'Roboto', sans-serif;
+font-family: 'Source Serif 4', sans-serif;
+}
+.myNav{
+   
+
+   
+    font-weight: bold;
+
+}
+#logo{
+    font-weight: 1500;
+}
+.news_container{
+    display:flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
+}
+.news_card{
+    
+
+   color:red;
+   gap:30px;
+   margin-top: 40px;
+   width:30%;
+   box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
+  border: 1px solid black;
+  
+
+}
+
+.img_cont{
+    width:40%;
+    height:100%;
+    background-color:yellow;
+}
+.des_cont{
+    width:70%;
+    background-color:pink;
+    height:100%;
+    
+}
